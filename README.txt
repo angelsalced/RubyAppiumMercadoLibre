@@ -1,5 +1,6 @@
 #Pre-Requisitos para Windows (desconozco si algunos comandos puedas llegar a variar en Mac)
 >Tener en ejecucion emulador de Android (para las pruebas se uso emulador Pixel 7  Version 15.0 Android)
+>En el dispositivo Android debe estar instalada Mercado Libre
 >Desde CMD ejecutar Appium (previamente instalado) para poder realizar conexion entre emulador y script (Version 2.15.0)
 >Verificar tener ruby instalado desde CMD "ruby -v" (V 3.4.1)
 >Instalar blunder desde CMD "gem install bundler"
