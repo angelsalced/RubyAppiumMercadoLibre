@@ -2,6 +2,8 @@
 Given('I open the Mercado Libre mobile application installed on the Android device') do
   @driver = GeneralFunctions.start_appium_driver
   GeneralFunctions.close_pop_up(@driver)
+  screenshot_path = take_screenshot("Open_ML")
+  attach(File.open(screenshot_path, 'rb').read, 'image/png')
 end
 
 When('I search for "playstation 5" in the search bar') do

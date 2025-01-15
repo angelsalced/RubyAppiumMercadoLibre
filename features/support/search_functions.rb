@@ -10,7 +10,7 @@ module SearchFunctions
     input_bar = driver.find_element(:id, UISelectors::INPUT_BAR)
     input_bar.send_keys('playstation 5')
     driver.press_keycode(66)
-    sleep 5 #En lo que carga para posterior tomat la captura
+    sleep 10 #En lo que carga para posterior tomar la captura
   end
 
   def self.new_condition(driver)

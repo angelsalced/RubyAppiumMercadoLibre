@@ -16,12 +16,12 @@ module ProductsFunctions
     puts "Consola 1: #{consolaNombre}, #{precioConsola1}"
 
     #Utilizado debido a que otras opciones de desplazamiento no fueron funcionales
-    system("adb shell input draganddrop 500 1500 500 469 1310")
+    system("adb shell input draganddrop 500 1500 500 467 1310")
 
     for i in 2..5 do
 
       #Utilizado debido a que otras opciones de desplazamiento no fueron funcionales
-      system("adb shell input draganddrop 500 1500 500 469 1310")
+      system("adb shell input draganddrop 500 1500 500 467 1310")
 
       sleep 5 #Se mantiene, es la espera para que los selectores se actualizan (son dinamicos, se actualizan en cada desplazamiento)
 

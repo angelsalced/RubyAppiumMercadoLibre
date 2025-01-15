@@ -1,9 +1,6 @@
-#Comentarios
->Puede ver la ultima ejecucion realizada en el reporte localizado en ruta .../features/reports/report.html
-
 #Pre-Requisitos para Windows (desconozco si algunos comandos puedas llegar a variar en Mac)
 >Tener en ejecucion emulador de Android (para las pruebas se uso emulador Pixel 7  Version 15.0 Android)
->En el dispositivo Android debe estar instalada Mercado Libre
+>En el dispositivo Android debe estar instalada Mercado Libre (sin tener sesion iniciada en ML)
 >Desde CMD ejecutar Appium (previamente instalado) para poder realizar conexion entre emulador y script (Version 2.15.0)
 >Verificar tener ruby instalado desde CMD "ruby -v" (V 3.4.1)
 >Instalar blunder desde CMD "gem install bundler"
@@ -25,7 +22,4 @@
 >Se usan algunos wait until y find eleement el distinta linea, debido que los wait until estaban pensados para otro elemento, pero luego note que podian usarse
  a algunos con los que ya se interactuaba
 >Se decidio usar Funciones por Proceso mas que POM, pero simulando que esto fuese un trabajo real aun asi permitiria la escalabilidad conforme el proyecto creciera
-
-#Comentarios
->Puede ver la ultima ejecucion realizada en el reporte localizado en ruta .../features/reports/report.html
 

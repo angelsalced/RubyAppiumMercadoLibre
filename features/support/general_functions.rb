@@ -45,7 +45,7 @@ module GeneralFunctions
     wait.until { driver.find_element(:xpath, UISelectors::MENSAJE_POP_UP).displayed? }
     notNow = driver.find_element(:id, UISelectors::NOT_NOW_BUTTON)
     notNow.click
-    sleep 10
+    sleep 10 #pausa para carga completa de pantalla y tomar captura de la app de ML abierta
   end
 
 end
