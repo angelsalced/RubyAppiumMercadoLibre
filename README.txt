@@ -1,3 +1,6 @@
+#Comentarios
+Revisar el html de la ultima ejecucion en ../features/reports/report.html para conocer ejecucion esperada de la automatizacion
+
 #Pre-Requisitos para Windows (desconozco si algunos comandos puedas llegar a variar en Mac)
 >Tener en ejecucion emulador de Android (para las pruebas se uso emulador Pixel 7  Version 15.0 Android)
 >En el dispositivo Android debe estar instalada Mercado Libre (sin tener sesion iniciada en ML)
