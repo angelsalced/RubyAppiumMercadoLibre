@@ -14,11 +14,14 @@
 
 
 #Riesgos
->Se comenta dispositivo usado debido a que para ciertos procesos se debio scrollear, mas o menos pixeles podria llegar a afectar un find_element
+>Se comenta dispositivo usado debido a que para el proceso de obtener nombre y precio se debio scrollear por pixeles, lo podria llegar a afectar un find_element
+(es posible modificar esto desde .../features/support/products_functions.rb, modificando el cuarto valor del arrastre para que desplaze mas o menos, la modificacion solo es subir
+o bajar por unidades (los valores sobre los cuales se estuvo trabajando fueron el rango de 468 a 465)) 
+>>Por el momento con el que esta asignado debe funcionar correctamente, pero se menciona porque durante la ejecucion este valor se llego a tener que modificar
 
 #Mejoras (o cosas que hubiera implementado con uno poco mas de tiempo)
 >Layout para que la busqueda pudiera ser dinamica, asi como para poder aplicar mas filtros, en algunos hasta 2 (por ejemplo, condicion se podria seleccionar
- Nuevo y Reacondicionado o asi
+ Nuevo y Reacondicionado o asi)
 >Se usan algunos wait until y find eleement el distinta linea, debido que los wait until estaban pensados para otro elemento, pero luego note que podian usarse
  a algunos con los que ya se interactuaba
 >Se decidio usar Funciones por Proceso mas que POM, pero simulando que esto fuese un trabajo real aun asi permitiria la escalabilidad conforme el proyecto creciera
