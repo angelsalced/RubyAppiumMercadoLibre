@@ -7,7 +7,10 @@ module SearchFunctions
   def self.search_playstation(driver)
     search_bar = driver.find_element(:id, UISelectors::SEARCH_BAR)
     search_bar.click
+    #sleep 10 USADO PARA AGREGAR TEXTO AL CAMPO
     input_bar = driver.find_element(:id, UISelectors::INPUT_BAR)
+    input_bar.clear
+    sleep 2
     input_bar.send_keys('playstation 5')
     driver.press_keycode(66)
     sleep 10 #En lo que carga para posterior tomar la captura
