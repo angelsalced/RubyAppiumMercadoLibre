@@ -10,11 +10,13 @@ module GeneralFunctions
     begin
       caps = {
         platformName: "Android",
-        platformVersion: "15",
-        deviceName: "emulator-5554",
+        platformVersion: "14",
+        deviceName: "RZCW812ENEE",
+        #deviceName: "emulator-5554",
         appPackage: "com.mercadolibre",
         appActivity: ".splash.SplashActivity",
-        automationName: "UiAutomator2"
+        automationName: "UiAutomator2",
+        uiautomator2ServerInstallTimeout: 60000
       }
 
       url = "http://127.0.0.1:4723"  # URL del servidor de Appium
