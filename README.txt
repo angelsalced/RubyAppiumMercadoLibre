@@ -21,9 +21,13 @@ Revisar el html de la ultima ejecucion en ../features/reports/report.html para c
 (es posible modificar esto desde .../features/support/products_functions.rb, modificando el cuarto valor del arrastre para que desplaze mas o menos, la modificacion solo es subir
 o bajar por unidades (los valores sobre los cuales se estuvo trabajando fueron el rango de 468 a 465)) ESTO PARA EMULADOR CON MISMO MODELO
 >>AL USAR DISPOSITIVO FISICO, sera importante ejecutar la automatizacion, y revisar el recorrido que se hace dado el rango de pixeles definido, los scrolleos deben ir producto a
-  producto, dejando visible siempre el nombre, pero sin que pueda ver informacion del anterior. Para bajar al segundo producto, estar configurados dos scrolleos, del resto solamente es uno. Desde los dos primero scrolleos podemos
-  identificar si sera necesario cambiar el valor (spoiler: si). Si esta haciendo demasiado recorrido, aumentaremos el cuarto valor de arrastre, si esta haciendo muy poco,
-  disminuiremos dicho valor. (se puede recorrido esperado en las imagenes adjuntas al reporte)
+  producto, dejando visible siempre el nombre, pero sin que pueda ver informacion del anterior. Para bajar al segundo producto, estar configurados dos scrolleos, del resto solamente es uno. 
+>>Desde los dos primero scrolleos podemos identificar si sera necesario cambiar el valor (spoiler: si). 
+>>>Si esta haciendo demasiado recorrido, aumentaremos el cuarto valor de arrastre. 
+>>>Si esta haciendo muy poco, disminuiremos dicho valor. (se puede recorrido esperado en las imagenes adjuntas al reporte)
+
+>Puede existir una ligera variacion en alguno de los selectores usados (se mitigaron los que se identificaron en distintos dispositivos)
+>>Se debe estar preparado en caso de necesitar adecuar algun elemento
 
 #Mejoras (o cosas que hubiera implementado con uno poco mas de tiempo)
 >Layout para que la busqueda pudiera ser dinamica, asi como para poder aplicar mas filtros, en algunos hasta 2 (por ejemplo, condicion se podria seleccionar
